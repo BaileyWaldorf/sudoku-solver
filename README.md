@@ -2,8 +2,10 @@
 This program will solve a 9x9 Sudoku puzzle using recursion and backtracking.
 
 Input:
+Takes in standard input.
 Number of cases (n)
-Followed by (n) 9x9 sudoku puzzles. Each puzzle containing 0's for the numbers not given, and numbers > 0 for fixes numbers.
+Followed by (n) 9x9 sudoku puzzles (with each number separated by a space, see example below).
+Each puzzle containing 0's for the numbers not given, and numbers > 0 for fixes numbers.
 
 E.g.
 2
@@ -50,3 +52,7 @@ Test case 1:
 Test case 2:
 
 No solution possible.
+
+Run command:
+java sudoku-solver                          (for inputting from standard input)
+java sudoku-solver < input.txt > output.txt (for inputting from a file and outputting to a file)
